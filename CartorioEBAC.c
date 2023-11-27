@@ -124,7 +124,8 @@ int main() // função principal do sistema
 		printf("Escolha a opção desejada:\n\n");
 		printf("\t1 Novo cadastro\n");
 		printf("\t2 Consultar cadastro\n");
-		printf("\t3 Apagar cadastro\n\n");
+		printf("\t3 Apagar cadastro\n");
+		printf("\t4 Sair do sistema\n\n");
 		printf("Opção desejada: ");
 // fim do menu	
 	
@@ -146,6 +147,11 @@ int main() // função principal do sistema
 			
 			case 3:
 				apagar();
+				break;
+				
+			case 4:
+				printf("Obrigado por utilizar o sistema.\n\n");
+				return 0;
 				break;
 				
 			default:
